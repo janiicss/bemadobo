@@ -1,0 +1,24 @@
+
+@mixin transition($property) {
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    transition: $property;
+}
+
+@mixin breakpoint($width){
+    @media screen and (min-width: $width){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @include breakpoint(480px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @include breakpoint(992px){
+        @content;
+    }
+}

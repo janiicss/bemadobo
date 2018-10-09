@@ -1,0 +1,12 @@
+//COMMON
+@import 'common/variables';
+
+//TOOLS
+@import 'common/mixins';
+@import 'common/functions';
+
+//DEFAULT
+@import 'common/global';
+
+//PAGES
+@import 'pages/home';
