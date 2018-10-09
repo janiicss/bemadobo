@@ -22,7 +22,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="content">
+            <section class="content">
                 <article class="recipe">
                     <h1 class="recipe__title">Chicken Cordon Bleu</h1>
                     <div class="recipe__img">
@@ -71,12 +71,12 @@
                     </div>
                     <div class="tags">
                         <span>Tags: </span>
-                        <span class="tags__list"></li><a href="#">Chicken</a></span>,
-                        <span class="tags__list"></li><a href="#">Recipe</a></span>,
-                        <span class="tags__list"></li><a href="#">Dish</a></span>
+                        <span class="tags__list"><a href="#">Chicken</a></span>,
+                        <span class="tags__list"><a href="#">Recipe</a></span>,
+                        <span class="tags__list"><a href="#">Dish</a></span>
                     </div>
                 </article>
-            </div> 
+            </section> 
         </div>
     </main>
     <footer>
