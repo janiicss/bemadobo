@@ -1,2 +1,5 @@
+##Dist
+assets/css/dist
+
 ##Others
-.DS_Store
+**/.DS_Store
